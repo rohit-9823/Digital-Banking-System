@@ -1,0 +1,64 @@
+.buttons {
+  display: block;
+  width: 115px;
+  height: 30px;
+  background: rgb(207, 76, 23);
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+input.ng-invalid,
+input.ng-dirty,
+ng-select.ng-invalid {
+  border: 1px solid red;
+  box-shadow: 1px 1px 3px rgb(255, 0, 0);
+}
+
+input.ng-untouched,
+ng-select.ng-untouched {
+  border: 1px solid grey;
+  box-shadow: 1px 1px 3px grey;
+}
+
+input.ng-valid,
+ng-select.ng-valid {
+  /*border-left: 5px solid green;*/
+  border: 1px solid green;
+  box-shadow: 1px 1px 3px rgb(0, 255, 0);
+}
+
+.error-alert {
+  height: auto !important;
+}
+
+.error-message {
+  color: red !important;
+  font-size: small;
+}
+
+.ng-select.disable-clear-all .ng-clear-wrapper {
+  display: none;
+}
+.chequeform {
+  position: relative;
+  bottom: 60px;
+}
+.errmessagewarning {
+  font-size: larger;
+  position: absolute;
+  top: 10px;
+}
+.checking {
+  margin: 7px;
+  cursor: pointer;
+}
+
+.inputbox_source {
+  border: none;
+  margin: 5px;
+  border-bottom: 1px solid black;
+  margin-left: 15px;
+}

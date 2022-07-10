@@ -1,0 +1,68 @@
+input.ng-invalid,
+input.ng-dirty,
+ng-select.ng-invalid {
+  border: 1px solid red;
+  box-shadow: 1px 1px 3px rgb(255, 0, 0);
+}
+
+input.ng-untouched,
+ng-select.ng-untouched {
+  border: 1px solid grey;
+  box-shadow: 1px 1px 3px grey;
+}
+
+input.ng-valid,
+ng-select.ng-valid {
+  /*border-left: 5px solid green;*/
+  border: 1px solid green;
+  box-shadow: 1px 1px 3px rgb(0, 255, 0);
+}
+
+.mr-5 {
+  margin-right: 5px !important;
+}
+.error-alert {
+  height: auto !important;
+}
+
+.error-message {
+  color: red !important;
+  font-size: small;
+}
+
+.denomination-error-message {
+  color: red !important;
+  font-size: 15px;
+  margin: 20px 0 -25px 0;
+}
+.denomination-input {
+  border: 1px solid green;
+  box-shadow: 1px 1px 3px rgb(0, 255, 0);
+}
+h3,
+h4 {
+  font: 400 16px/28px Roboto, "Helvetica Neue", sans-serif;
+}
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+.cashform {
+  position: relative;
+  bottom: 60px;
+}
+.swal2-html-container {
+  font-size: xx-large;
+}
+.errmessage {
+  border: none;
+  background-color: white;
+}
+.errmessagewarning {
+  position: relative;
+  top: -8px;
+  color: red !important;
+  font-size: small;
+}
+.source2 {
+  padding: 0px;
+}
